@@ -35,8 +35,8 @@
 #endif
 
 
-#include "freedv/freedv_api.h"
-#include "freedv/ldpc_codes.h"
+#include <freedv/freedv_api.h>
+#include <freedv/ldpc_codes.h>
 #include "arq.h"
 #include "arq_trace.h"
 #include "modem.h"
