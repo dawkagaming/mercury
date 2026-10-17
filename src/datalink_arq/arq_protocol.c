@@ -24,7 +24,7 @@ _Atomic int arq_disconnect_drain_timeout_s = ARQ_DISCONNECT_DRAIN_TIMEOUT_S_DEFA
 
 
 /* Include FreeDV mode constants */
-#include "../modem/freedv/freedv_api.h"
+#include <freedv/freedv_api.h>
 #include "../modem/modem_mfsk.h"   /* MERCURY_MODE_MFSK */
 
 /* Framer layer (write_frame_header, PACKET_TYPE_* constants) */
