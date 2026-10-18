@@ -19,7 +19,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "hermes_log.h"
+#include "../../common/hermes_log.h"
 #include "mercury_websocket.h"
 #include "web_assets.h"
 #include "ws_json.h"

@@ -17,7 +17,7 @@
 
 #include <fcntl.h>
 
-#include "ring_buffer_posix.h"
+#include "../common/ring_buffer_posix.h"
 
 #define AUDIO_SUBSYSTEM_ALSA 0
 #define AUDIO_SUBSYSTEM_PULSE 1

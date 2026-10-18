@@ -16,8 +16,8 @@
 #include <pthread.h>
 
 #include "cfg_utils.h"
-#include "ui_communication.h"
-#include "modem.h"
+#include "../gui_interface/ui_communication.h"
+#include "../modem/modem.h"
 
 /* Set by the termination signal handler, polled by main and by every worker
  * loop.  _Atomic rather than volatile: volatile provides no inter-thread

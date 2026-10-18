@@ -29,7 +29,7 @@
 #include <pthread.h>
 
 #include "websocket/mercury_websocket.h"
-#include "cfg_utils.h"
+#include "../common/cfg_utils.h"
 #include "ui_status.h"
 
 // ---- Default ports for UI <-> backend communication ----
