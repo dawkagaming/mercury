@@ -14,17 +14,17 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "cfg_utils.h"
-#include "mercury_engine.h"
-#include "mercury_cli.h"
+#include "../../../common/cfg_utils.h"
+#include "../../../common/mercury_engine.h"
+#include "../../../common/mercury_cli.h"
 #include "mercury_bridge.h"
-#include "mercury_version.h"
-#include "hermes_log.h"
-#include "ui_communication.h"
-#include "modem.h"
-#include "modem_stats.h"   /* MODEM_STATS_NSPEC */
-#include "message_store.h"
-#include "bcast_file.h"
+#include "../../../common/mercury_version.h"
+#include "../../../common/hermes_log.h"
+#include "../../ui_communication.h"
+#include "../../../modem/modem.h"
+#include <freedv/modem_stats.h>   /* MODEM_STATS_NSPEC */
+#include "../../../common/message_store.h"
+#include "../../../datalink_broadcast/bcast_file.h"
 
 /* Print the startup version banner (same text the daemon prints), so the UI
  * announces its version on the terminal too.  Resolved here, in a unit the
